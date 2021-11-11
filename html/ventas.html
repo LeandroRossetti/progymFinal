@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="https://img.icons8.com/ios/100/000000/triceps.png">
+  <title>La página de Leandro!</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">ProGym</a>
+      <h1>Ventas</h1>
+      <ul class="nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sedes.html">Sedes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="socios.html">Socios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ventas.html">Ventas</a>
+        </li>
+      </ul>
+
+
+    </nav>
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="well well-sm">
+              <form class="form-horizontal" method="post">
+                <fieldset>
+                  <legend class="text-center header">Cargue los datos de la persona a asociar.</legend>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                    <div class="col-md-8">
+                      <input id="fname" name="name" type="text" placeholder="Nombre/s" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                    <div class="col-md-8">
+                      <input id="lname" name="lastname" type="text" placeholder="Apellido" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                    <div class="col-md-8">
+                      <input id="email" name="email" type="email" placeholder="Email" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                    <div class="col-md-8">
+                      <input id="phone" name="phone" type="phone" placeholder="Telefono" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                        class="fa fa-pencil-square-o bigicon"></i></span>
+                    <div class="col-md-8">
+                      <select class="form-select" aria-label="Default select example" id="optionForm">
+                        <option selected>Tipo de plan?</option>
+                        <option value="1">TOTAL</option>
+                        <option value="2">PLUS</option>
+                        <option value="3">LOCAL</option>
+                      </select>
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <div class="col-md-12 text-center">
+                      <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../jss/ventas.js"></script>
+  <script src="../jss/socios.js"></script>
+
+
+</body>
+
+</html>

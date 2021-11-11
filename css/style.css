@@ -1,0 +1,59 @@
+/* CSS files add styling rules to your content */
+
+body {
+    margin: 0em;
+    font-family: Montserrat; /* Cambia letra del body*/
+  }
+  
+  .cover {
+    height: 800px;
+    background-image: url(https://cdn.glitch.com/ed2cbc0e-4409-44ce-81bc-fe87a87d4d25%2Frsz_alexander-redl-d3bymnz0ank-unsplashchiko.jpg?v=1600231967773);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+  }
+  /* Ajusta las imagenes de las tarjetas en este caso */
+  .cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+  }
+  
+  .card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card-title {
+    min-height: 3rem;
+  }
+  
+  .card-text {
+    min-height: 5rem;
+  }
+  
+  .textUsuario{
+
+    color: white;
+   visibility:visible;
+  }
+
+
+ .navbar{
+   justify-content: space-between;
+ }
+
+ h1{
+   color:white;
+   margin: 0px;
+   font-family: 'Montserrat';
+   height: 40px;
+   
+ }
+
+ table{
+
+  margin: 25px;
+ }
